@@ -685,13 +685,29 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-white">PE Diligence Command Center</h1>
               <p className="text-sm text-gray-400">AI-powered due diligence analysis</p>
             </div>
-            <Dialog open={showDocumentManager} onOpenChange={setShowDocumentManager}>
-              <DialogTrigger asChild>
-                <Button variant="ghost" className="border border-gray-700 text-white hover:bg-gray-800 hover:text-white">
-                  <Upload className="mr-2 h-4 w-4" />
-                  Manage Documents
-                </Button>
-              </DialogTrigger>
+            <div className="flex items-center gap-3">
+              <Button
+                variant="ghost"
+                className="border border-gray-700 text-white hover:bg-gray-800 hover:text-white"
+                onClick={() => {
+                  const link = document.createElement('a')
+                  link.href = '/sample_pe_deal_cim.txt'
+                  link.download = 'sample_pe_deal_cim.txt'
+                  document.body.appendChild(link)
+                  link.click()
+                  document.body.removeChild(link)
+                }}
+              >
+                <FileText className="mr-2 h-4 w-4" />
+                Download Sample CIM
+              </Button>
+              <Dialog open={showDocumentManager} onOpenChange={setShowDocumentManager}>
+                <DialogTrigger asChild>
+                  <Button variant="ghost" className="border border-gray-700 text-white hover:bg-gray-800 hover:text-white">
+                    <Upload className="mr-2 h-4 w-4" />
+                    Manage Documents
+                  </Button>
+                </DialogTrigger>
               <DialogContent className="max-w-2xl bg-[#1a1f36] border-gray-700 text-white">
                 <DialogHeader>
                   <DialogTitle className="text-white">Document Management</DialogTitle>

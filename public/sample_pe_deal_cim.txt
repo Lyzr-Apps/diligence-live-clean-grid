@@ -1,0 +1,369 @@
+CONFIDENTIAL INFORMATION MEMORANDUM
+
+ACME INDUSTRIAL SERVICES, INC.
+Investment Opportunity
+
+December 2024
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Company Overview:
+ACME Industrial Services, Inc. ("ACME" or the "Company") is a leading provider of specialized maintenance and repair services to the manufacturing sector across the Midwest United States. Founded in 2015, the Company has grown to serve over 200 active clients with annual revenues of $45 million.
+
+Investment Highlights:
+- Market-leading position in fragmented $2.8B regional industrial services market
+- Proven track record: 22% revenue CAGR over past 3 years
+- Strong recurring revenue model: 65% of revenue from long-term service contracts
+- Experienced management team with 15+ years average industry experience
+- Significant add-on acquisition opportunities in adjacent markets
+
+================================================================================
+FINANCIAL SUMMARY
+================================================================================
+
+Historical Financial Performance (USD millions):
+
+                        2022        2023        2024E
+Revenue                 $31.2       $38.5       $45.0
+Gross Profit            $12.8       $15.8       $18.5
+Gross Margin            41%         41%         41%
+EBITDA                  $6.2        $7.7        $9.0
+EBITDA Margin           20%         20%         20%
+Net Income              $3.1        $3.9        $4.5
+
+Cash Flow Statement (2024E):
+Operating Cash Flow                     $8.2M
+Less: Capex                            ($2.1M)
+Free Cash Flow                          $6.1M
+
+Balance Sheet Highlights (as of Q3 2024):
+Cash and Equivalents                    $2.3M
+Accounts Receivable                     $8.5M
+Total Assets                           $24.5M
+Total Debt                             $12.0M
+  - Senior Term Loan                    $10.0M (5.5% interest, matures 2027)
+  - Equipment Financing                  $2.0M
+Shareholders' Equity                    $8.2M
+
+Working Capital Metrics:
+Current Ratio: 1.8x
+Days Sales Outstanding (DSO): 68 days
+Accounts Payable Days: 45 days
+
+================================================================================
+OPERATIONAL METRICS
+================================================================================
+
+Service Capacity:
+- 85 full-time technicians
+- 12 regional service centers
+- Fleet of 45 service vehicles
+- Average capacity utilization: 78%
+- Revenue per technician: $529K
+
+Customer Base:
+- 200+ active clients
+- Top 10 clients represent 35% of revenue
+- Average client tenure: 4.2 years
+- Client retention rate: 92%
+- Contract backlog: $32M (12-month forward visibility)
+
+Geographic Footprint:
+- Illinois: 40% of revenue
+- Indiana: 25% of revenue
+- Ohio: 20% of revenue
+- Michigan: 15% of revenue
+
+================================================================================
+BUSINESS MODEL & REVENUE STREAMS
+================================================================================
+
+Revenue Mix:
+1. Maintenance Contracts (65% of revenue): $29.3M
+   - Long-term agreements (1-3 years)
+   - Preventive maintenance, inspections, routine repairs
+   - Highly predictable, recurring revenue
+
+2. Emergency Repair Services (25% of revenue): $11.3M
+   - Time & materials billing
+   - 24/7 availability premium pricing
+   - Average response time: 2.4 hours
+
+3. Equipment Installation (10% of revenue): $4.5M
+   - Project-based work
+   - Margins lower than service work (28% vs 43%)
+   - Drives future maintenance contract opportunities
+
+================================================================================
+MARKET POSITION & COMPETITIVE LANDSCAPE
+================================================================================
+
+Market Size & Growth:
+- Total Addressable Market (TAM): $2.8B in core 4-state region
+- Market growing at 6-8% annually driven by aging industrial infrastructure
+- Highly fragmented: Top 10 players hold only 25% market share
+
+Competitive Advantages:
+- Specialized expertise in complex industrial systems
+- Fastest response times in key markets
+- Strong safety record (0.85 TRIR vs industry avg 2.1)
+- Proprietary scheduling software increases technician productivity by 15%
+
+Key Competitors:
+- National chains (low market presence in region)
+- Regional independents (lack scale and specialization)
+- In-house client teams (increasingly outsourced due to cost)
+
+================================================================================
+MANAGEMENT TEAM
+================================================================================
+
+John Anderson - CEO & Founder
+- 18 years in industrial services sector
+- Previously VP Operations at MidwestTech Services
+- Owns 75% equity stake
+
+Sarah Chen - CFO (joined 2021)
+- Former Controller at manufacturing conglomerate
+- CPA, MBA from Northwestern
+- Implemented current financial systems and controls
+
+Michael Rodriguez - VP Operations (joined 2018)
+- 22 years field operations experience
+- Oversees all service delivery and technician workforce
+- Led expansion into Ohio and Michigan markets
+
+================================================================================
+GROWTH STRATEGY
+================================================================================
+
+Organic Growth Initiatives:
+1. Geographic Expansion: Enter Wisconsin market (est. $3M revenue opportunity)
+2. Service Line Extension: Add HVAC maintenance capabilities
+3. Client Penetration: Cross-sell additional services to existing base
+4. Pricing Optimization: Implement 3-5% annual contract escalators
+
+Inorganic Growth (M&A):
+- Identified 12 acquisition targets in adjacent markets
+- Estimated acquisition pipeline: $15-20M revenue
+- Platform for industry consolidation strategy
+
+Capital Requirements:
+- Estimated $8M equity investment needed
+- Use of proceeds: $5M growth capex, $3M working capital for expansion
+
+================================================================================
+RISK FACTORS & CONSIDERATIONS
+================================================================================
+
+Operational Risks:
+- Technician recruitment and retention in tight labor market
+- Client concentration: Top client represents 8% of revenue
+- Safety incidents could impact reputation and insurance costs
+
+Financial Risks:
+- Working capital intensity: DSO stretched to 68 days (industry avg: 55 days)
+- Debt covenant: Must maintain minimum 1.25x debt service coverage ratio
+- Current ratio of senior debt/EBITDA: 1.33x
+- Equipment financing requires quarterly payments of $150K
+
+Market Risks:
+- Economic downturn could reduce emergency repair demand
+- Manufacturing sector exposure (70% of clients in automotive/metals)
+- Potential client in-sourcing of maintenance functions
+
+Regulatory & Compliance:
+- OSHA compliance requirements
+- EPA regulations for handling industrial chemicals
+- State licensing requirements for technicians
+
+================================================================================
+ONE-TIME ITEMS & ADJUSTMENTS (2024)
+================================================================================
+
+Pro-Forma EBITDA Adjustments:
+Reported EBITDA                                    $9.0M
+
+Add-backs:
+- Founder discretionary expenses                   $0.4M
+  (personal vehicle, club memberships)
+- One-time IT system implementation costs          $0.3M
+- Legal fees related to contract dispute           $0.2M
+- Retention bonuses (non-recurring)                $0.3M
+
+Adjusted EBITDA                                    $10.2M
+
+Note: Dispute with former client (MegaCorp Inc.) resulted in $0.2M legal fees.
+Settlement reached in Q4 2024, but MegaCorp represents $2.8M in lost annual revenue.
+
+================================================================================
+DEBT & COVENANT DETAILS
+================================================================================
+
+Senior Term Loan Details:
+- Principal: $10.0M outstanding
+- Interest Rate: 5.5% fixed
+- Maturity: December 2027
+- Monthly principal payments: $278K
+- Quarterly interest payments
+
+Financial Covenants:
+1. Minimum Debt Service Coverage Ratio: 1.25x
+   - Current: 1.28x (TIGHT - only 2.4% cushion)
+   - Calculated as: (EBITDA - Capex) / (Principal + Interest)
+
+2. Maximum Total Leverage: 2.0x
+   - Current: 1.33x (COMFORTABLE cushion)
+
+3. Minimum Liquidity: $1.5M cash or available revolver
+   - Current: $2.3M cash (ADEQUATE)
+
+Covenant Breach Risk:
+- Recent DSO deterioration from 55 to 68 days straining cash flow
+- Single client bankruptcy ($400K receivable) could trigger covenant violation
+- Q1 2025 debt service payment of $420K due
+
+Equipment Financing:
+- Various equipment loans totaling $2.0M
+- Quarterly payments: $150K
+- Secured by specific vehicles and equipment
+- No financial covenants, but cross-default with senior loan
+
+================================================================================
+RELATED PARTY TRANSACTIONS
+================================================================================
+
+1. Facility Lease:
+   - Company leases primary headquarters from entity owned by CEO
+   - Annual rent: $480K
+   - Market rate assessment: $420K (company paying 14% premium)
+   - Lease term: 5 years remaining
+
+2. Equipment Purchases:
+   - $350K in equipment purchased from supplier partly owned by CEO's brother
+   - Pricing appears market-competitive based on third-party quotes
+
+3. Management Compensation:
+   - CEO base salary: $285K
+   - CFO base salary: $175K
+   - No formal bonus plan or equity incentive structure for management team
+
+================================================================================
+ACCOUNTING & AUDIT CONSIDERATIONS
+================================================================================
+
+Revenue Recognition:
+- Maintenance contracts: Recognized ratably over contract term
+- Emergency services: Recognized upon service completion
+- Installation projects: Percentage-of-completion method
+
+Recent Accounting Changes:
+- Changed depreciation method for service vehicles in 2023 (from 5yr to 7yr life)
+  - Impact: Reduced depreciation expense by $180K annually
+  - Rationale: Vehicles lasting longer due to improved maintenance
+
+- Changed revenue recognition timing for installation projects in 2024
+  - Previously recognized upon project completion
+  - Now using percentage-of-completion
+  - Accelerated $600K in revenue recognition in 2024
+
+Audit History:
+- Financial statements reviewed (not audited) by local CPA firm
+- Last review: 2023 statements (clean opinion with management letter comments)
+- Management letter noted: "Weak controls over accounts receivable aging"
+- No independent audit committee
+
+Accounts Receivable Quality:
+- 15% of AR over 90 days past due
+- Allowance for doubtful accounts: 2.5% of AR
+- Recent write-off: $125K from bankrupt client
+- Collection efforts inconsistent per management letter
+
+Inventory & Capitalization:
+- Service parts inventory: $1.2M
+- No formal cycle counting program
+- Last physical count: 14 months ago
+
+================================================================================
+SUSTAINABILITY & EARNINGS QUALITY ASSESSMENT
+================================================================================
+
+Non-Recurring Revenue Items (2024):
+- Insurance claim recovery (storm damage): $200K
+- Sale of excess equipment: $150K
+- One-time project for plant closure assistance: $400K
+Total Non-Recurring Revenue: $750K
+
+Normalized Revenue: $44.25M (vs reported $45.0M)
+
+Non-Recurring Expenses (2024):
+- Storm damage repairs: $120K
+- IT system implementation: $300K
+- Legal settlement costs: $200K
+- Severance for terminated regional manager: $85K
+Total Non-Recurring Expenses: $705K
+
+Quality of Earnings Concerns:
+1. Aggressive depreciation policy change boosted EBITDA by $180K
+2. Revenue recognition change accelerated $600K in revenue
+3. MegaCorp client loss ($2.8M annual revenue) not yet reflected in run-rate
+4. Founder add-backs may be partially recurring (vehicles needed for business)
+
+Sustainable Revenue Run-Rate:
+- Reported 2024 revenue: $45.0M
+- Less: Lost MegaCorp contract (annualized): ($2.8M)
+- Less: One-time project revenue: ($0.75M)
+- Sustainable revenue base: $41.45M
+
+Sustainable EBITDA Estimate:
+- Reported EBITDA: $9.0M
+- Less: Impact of revenue loss (at 20% margin): ($0.7M)
+- Less: Depreciation policy normalization: ($0.18M)
+- Add: Non-recurring expenses: $0.7M
+- Sustainable EBITDA: $8.82M (vs management's $10.2M adjusted)
+
+================================================================================
+APPENDIX: KEY QUESTIONS FOR DILIGENCE
+================================================================================
+
+Critical Items to Investigate:
+
+Liquidity & Cash Flow:
+- What is driving DSO deterioration from 55 to 68 days?
+- Can the company meet debt service coverage covenant with only 2.4% cushion?
+- What happens if the $400K questionable receivable becomes uncollectible?
+- Is working capital sufficient to fund growth plans?
+
+Operations:
+- Why did MegaCorp terminate their $2.8M contract?
+- Can 78% capacity utilization support growth without significant capex?
+- What is technician turnover rate and labor cost inflation trend?
+- How dependent is business on key operational personnel?
+
+Sustainability:
+- Are accounting policy changes (depreciation, revenue recognition) justified?
+- What is true sustainable EBITDA after normalizing for one-time items?
+- How much of founder add-backs are truly discretionary?
+
+Audit & Controls:
+- Why only review-level (not audit-level) financial statements?
+- What specific AR control weaknesses were noted in management letter?
+- Have weaknesses been remediated?
+- What is risk of additional client write-offs given 15% AR over 90 days?
+
+Strategic:
+- Is platform strong enough for M&A strategy?
+- What prevents larger competitors from entering market?
+- Can pricing support 3-5% escalators in competitive market?
+
+================================================================================
+END OF CONFIDENTIAL INFORMATION MEMORANDUM
+================================================================================
+
+This document contains confidential and proprietary information. Unauthorized distribution is prohibited.
+
+For questions, contact:
+Investment Banking Advisors
+dealteam@investmentbank.com
