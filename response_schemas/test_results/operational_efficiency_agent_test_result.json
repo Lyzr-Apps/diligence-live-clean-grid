@@ -1,0 +1,60 @@
+{
+  "agent_name": "Operational Efficiency Agent",
+  "agent_id": "6970d8581d92f5e2dd22a72a",
+  "test_message": "Building on the liquidity context, examine operational metrics including margin trends, cost structures, and capacity utilization. Assess operational sustainability of cash generation.",
+  "expected_purpose": "operations_analyst",
+  "timestamp": "2026-01-21T13:49:00.997890",
+  "is_valid_json": true,
+  "validation_errors": [],
+  "actual_response": {
+    "status": "success",
+    "result": {
+      "margin_analysis": {
+        "gross_margin": "Data not found in documents",
+        "ebitda_margin": "Data not found in documents",
+        "margin_trends": [
+          "Data not found in documents"
+        ],
+        "margin_concerns": [
+          "Data not found in documents"
+        ]
+      },
+      "cost_structure": {
+        "fixed_costs_pct": "Data not found in documents",
+        "variable_costs_pct": "Data not found in documents",
+        "cost_efficiency_rating": "Data not found in documents",
+        "cost_optimization_opportunities": [
+          "Data not found in documents"
+        ]
+      },
+      "operational_metrics": {
+        "capacity_utilization": "Data not found in documents",
+        "revenue_per_employee": "Data not found in documents",
+        "asset_turnover": "Data not found in documents",
+        "key_operational_kpis": [
+          {
+            "metric": "Data not found in documents",
+            "value": "Data not found in documents",
+            "trend": "Data not found in documents"
+          }
+        ]
+      },
+      "operational_leverage": {
+        "rating": "Data not found in documents",
+        "scalability_assessment": "Data not found in documents"
+      },
+      "cash_generation_sustainability": "Data not found in documents",
+      "findings": [
+        "Operational data required for analysis was not found in the provided documents."
+      ],
+      "recommendations": [
+        "Provide detailed operational and financial statements to enable thorough efficiency and sustainability assessment."
+      ]
+    },
+    "metadata": {
+      "agent_name": "Operational Efficiency Agent",
+      "timestamp": "2024-06-12T17:18:35Z"
+    }
+  },
+  "raw_response": "{\n  \"status\": \"success\",\n  \"result\": {\n    \"margin_analysis\": {\n      \"gross_margin\": \"Data not found in documents\",\n      \"ebitda_margin\": \"Data not found in documents\",\n      \"margin_trends\": [\"Data not found in documents\"],\n      \"margin_concerns\": [\"Data not found in documents\"]\n    },\n    \"cost_structure\": {\n      \"fixed_costs_pct\": \"Data not found in documents\",\n      \"variable_costs_pct\": \"Data not found in documents\",\n      \"cost_efficiency_rating\": \"Data not found in documents\",\n      \"cost_optimization_opportunities\": [\"Data not found in documents\"]\n    },\n    \"operational_metrics\": {\n      \"capacity_utilization\": \"Data not found in documents\",\n      \"revenue_per_employee\": \"Data not found in documents\",\n      \"asset_turnover\": \"Data not found in documents\",\n      \"key_operational_kpis\": [{\"metric\": \"Data not found in documents\", \"value\": \"Data not found in documents\", \"trend\": \"Data not found in documents\"}]\n    },\n    \"operational_leverage\": {\n      \"rating\": \"Data not found in documents\",\n      \"scalability_assessment\": \"Data not found in documents\"\n    },\n    \"cash_generation_sustainability\": \"Data not found in documents\",\n    \"findings\": [\"Operational data required for analysis was not found in the provided documents.\"],\n    \"recommendations\": [\"Provide detailed operational and financial statements to enable thorough efficiency and sustainability assessment.\"]\n  },\n  \"metadata\": {\n    \"agent_name\": \"Operational Efficiency Agent\",\n    \"timestamp\": \"2024-06-12T17:18:35Z\"\n  }\n}"
+}

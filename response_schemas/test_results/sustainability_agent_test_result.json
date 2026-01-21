@@ -1,0 +1,65 @@
+{
+  "agent_name": "Sustainability Agent",
+  "agent_id": "6970d8781d92f5e2dd22a732",
+  "test_message": "Identify one-time items, non-recurring revenues or expenses, and pro-forma adjustments in the financial statements. Separate sustainable earnings from noise.",
+  "expected_purpose": "earnings_quality_analyst",
+  "timestamp": "2026-01-21T13:49:05.224039",
+  "is_valid_json": true,
+  "validation_errors": [],
+  "actual_response": {
+    "status": "success",
+    "result": {
+      "one_time_items": [
+        {
+          "description": "Data not found in documents",
+          "amount": "Data not found in documents",
+          "impact": "Data not found in documents"
+        }
+      ],
+      "non_recurring_revenue": {
+        "total_amount": "Data not found in documents",
+        "percentage_of_revenue": "Data not found in documents",
+        "items": [
+          {
+            "description": "Data not found in documents",
+            "amount": "Data not found in documents"
+          }
+        ]
+      },
+      "pro_forma_adjustments": {
+        "total_adjustments": "Data not found in documents",
+        "legitimate_adjustments": [
+          "Data not found in documents"
+        ],
+        "questionable_adjustments": [
+          "Data not found in documents"
+        ]
+      },
+      "earnings_quality": {
+        "rating": "Data not found in documents",
+        "red_flags": [
+          "Data not found in documents"
+        ],
+        "quality_concerns": [
+          "Data not found in documents"
+        ]
+      },
+      "sustainable_earnings": {
+        "normalized_ebitda": "Data not found in documents",
+        "sustainable_revenue_base": "Data not found in documents",
+        "sustainability_assessment": "Data not found in documents"
+      },
+      "findings": [
+        "Data not found in documents"
+      ],
+      "recommendations": [
+        "Data not found in documents"
+      ]
+    },
+    "metadata": {
+      "agent_name": "Sustainability Agent",
+      "timestamp": "2024-07-08T18:40:57Z"
+    }
+  },
+  "raw_response": "{\n  \"status\": \"success\",\n  \"result\": {\n    \"one_time_items\": [\n      {\n        \"description\": \"Data not found in documents\",\n        \"amount\": \"Data not found in documents\",\n        \"impact\": \"Data not found in documents\"\n      }\n    ],\n    \"non_recurring_revenue\": {\n      \"total_amount\": \"Data not found in documents\",\n      \"percentage_of_revenue\": \"Data not found in documents\",\n      \"items\": [\n        {\n          \"description\": \"Data not found in documents\",\n          \"amount\": \"Data not found in documents\"\n        }\n      ]\n    },\n    \"pro_forma_adjustments\": {\n      \"total_adjustments\": \"Data not found in documents\",\n      \"legitimate_adjustments\": [\"Data not found in documents\"],\n      \"questionable_adjustments\": [\"Data not found in documents\"]\n    },\n    \"earnings_quality\": {\n      \"rating\": \"Data not found in documents\",\n      \"red_flags\": [\"Data not found in documents\"],\n      \"quality_concerns\": [\"Data not found in documents\"]\n    },\n    \"sustainable_earnings\": {\n      \"normalized_ebitda\": \"Data not found in documents\",\n      \"sustainable_revenue_base\": \"Data not found in documents\",\n      \"sustainability_assessment\": \"Data not found in documents\"\n    },\n    \"findings\": [\"Data not found in documents\"],\n    \"recommendations\": [\"Data not found in documents\"]\n  },\n  \"metadata\": {\n    \"agent_name\": \"Sustainability Agent\",\n    \"timestamp\": \"2024-07-08T18:40:57Z\"\n  }\n}"
+}

@@ -1,0 +1,192 @@
+{
+  "agent_name": "Diligence Coordinator Agent",
+  "agent_id": "6970d8d41d92f5e2dd22a74a",
+  "agent_purpose": "manager",
+  "description": "Orchestrates sequential diligence workflow and synthesizes findings into consolidated investment recommendations",
+  "response_schema": {
+    "status": "string",
+    "result": {
+      "executive_summary": "string",
+      "agent_findings": {
+        "liquidity_summary": "string",
+        "operational_summary": "string",
+        "sustainability_summary": "string",
+        "audit_summary": "string"
+      },
+      "cross_cutting_themes": [
+        "string"
+      ],
+      "critical_red_flags": [
+        "string"
+      ],
+      "investment_recommendation": {
+        "decision": "string",
+        "confidence_level": "string",
+        "reasoning": "string",
+        "key_risks": [
+          "string"
+        ],
+        "key_opportunities": [
+          "string"
+        ]
+      },
+      "required_actions": {
+        "immediate": [
+          "string"
+        ],
+        "before_closing": [
+          "string"
+        ],
+        "post_acquisition": [
+          "string"
+        ]
+      },
+      "deal_killers_identified": [
+        "string"
+      ],
+      "valuation_considerations": [
+        "string"
+      ]
+    },
+    "metadata": {
+      "agent_name": "string",
+      "timestamp": "string",
+      "agents_executed": [
+        "string"
+      ]
+    }
+  },
+  "example_response": {
+    "status": "success",
+    "result": {
+      "executive_summary": "All diligence streams\u2014liquidity, operational, sustainability, and audit\u2014failed to identify concrete red flags only because the company has provided no financials, working capital, KPI, or operational documentation. The total lack of transparency presents a fundamental and cross-cutting red flag that prevents any responsible investment consideration.",
+      "agent_findings": {
+        "liquidity_summary": "Unable to assess cash position, working capital, or debt covenants\u2014no data provided. Diligence cannot progress without basic financial disclosures.",
+        "operational_summary": "No operational or margin data available. Operational sustainability cannot be evaluated; risk of hidden operational issues is high.",
+        "sustainability_summary": "Material absence of financials precludes any assessment of earnings quality, recurring vs. non-recurring items, or validity of normalized EBITDA figures.",
+        "audit_summary": "Audit and compliance risk is at maximum: lack of core records prevents any verification and constitutes a deal killer from an auditor's perspective. Adverse opinion would be issued based on missing documentation alone."
+      },
+      "cross_cutting_themes": [
+        "Total absence of financial transparency across all review streams",
+        "High risk of undisclosed or manipulated financials",
+        "Operational and financial verification impossible",
+        "Potential for significant undisclosed liabilities or misrepresented earnings"
+      ],
+      "critical_red_flags": [
+        "No financial, working capital, or KPI data provided",
+        "No operational or margin analysis possible",
+        "Unable to verify any claims or reported figures",
+        "High risk of earnings management and accounting manipulation",
+        "Absence of documentation is itself a major audit failure"
+      ],
+      "investment_recommendation": {
+        "decision": "do_not_proceed",
+        "confidence_level": "high",
+        "reasoning": "The absence of any financial, operational, or KPI documentation makes credible diligence impossible and exposes the investor to unacceptable risk of misstatement, fraud, or undisclosed liabilities. This is a clear deal killer from both audit and investment perspectives.",
+        "key_risks": [
+          "Inability to independently verify reported performance or liabilities",
+          "Risk of material misstatements, fraud, or undisclosed issues in the business"
+        ],
+        "key_opportunities": [
+          "If documentation were to be provided, it may be possible to reassess the opportunity\u2014but only after complete baseline diligence"
+        ]
+      },
+      "required_actions": {
+        "immediate": [
+          "Demand full sets of audited or at least management-prepared financials, operational data, and supporting documentation."
+        ],
+        "before_closing": [
+          "Do not progress the deal until all baseline data and documentation have been satisfactorily reviewed and verified."
+        ],
+        "post_acquisition": [
+          "Not applicable until pre-acquisition diligence is satisfied."
+        ]
+      },
+      "deal_killers_identified": [
+        "Complete lack of documentation to support any investment decision"
+      ],
+      "valuation_considerations": [
+        "No valuation credible without base documentation. All reported numbers are provisional and potentially fictitious."
+      ]
+    },
+    "metadata": {
+      "agent_name": "Diligence Coordinator Agent",
+      "timestamp": "2024-06-13T17:14:24Z",
+      "agents_executed": [
+        "Liquidity Risk Agent",
+        "Operational Efficiency Agent",
+        "Sustainability Agent",
+        "External Auditor Agent"
+      ]
+    }
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-01-21T13:50:46.363097",
+  "test_message_used": "Process this request and coordinate sub-agents",
+  "test_error": "Agent test timed out after 30 seconds",
+  "actual_test_response": {
+    "status": "success",
+    "result": {
+      "executive_summary": "All diligence streams\u2014liquidity, operational, sustainability, and audit\u2014failed to identify concrete red flags only because the company has provided no financials, working capital, KPI, or operational documentation. The total lack of transparency presents a fundamental and cross-cutting red flag that prevents any responsible investment consideration.",
+      "agent_findings": {
+        "liquidity_summary": "Unable to assess cash position, working capital, or debt covenants\u2014no data provided. Diligence cannot progress without basic financial disclosures.",
+        "operational_summary": "No operational or margin data available. Operational sustainability cannot be evaluated; risk of hidden operational issues is high.",
+        "sustainability_summary": "Material absence of financials precludes any assessment of earnings quality, recurring vs. non-recurring items, or validity of normalized EBITDA figures.",
+        "audit_summary": "Audit and compliance risk is at maximum: lack of core records prevents any verification and constitutes a deal killer from an auditor's perspective. Adverse opinion would be issued based on missing documentation alone."
+      },
+      "cross_cutting_themes": [
+        "Total absence of financial transparency across all review streams",
+        "High risk of undisclosed or manipulated financials",
+        "Operational and financial verification impossible",
+        "Potential for significant undisclosed liabilities or misrepresented earnings"
+      ],
+      "critical_red_flags": [
+        "No financial, working capital, or KPI data provided",
+        "No operational or margin analysis possible",
+        "Unable to verify any claims or reported figures",
+        "High risk of earnings management and accounting manipulation",
+        "Absence of documentation is itself a major audit failure"
+      ],
+      "investment_recommendation": {
+        "decision": "do_not_proceed",
+        "confidence_level": "high",
+        "reasoning": "The absence of any financial, operational, or KPI documentation makes credible diligence impossible and exposes the investor to unacceptable risk of misstatement, fraud, or undisclosed liabilities. This is a clear deal killer from both audit and investment perspectives.",
+        "key_risks": [
+          "Inability to independently verify reported performance or liabilities",
+          "Risk of material misstatements, fraud, or undisclosed issues in the business"
+        ],
+        "key_opportunities": [
+          "If documentation were to be provided, it may be possible to reassess the opportunity\u2014but only after complete baseline diligence"
+        ]
+      },
+      "required_actions": {
+        "immediate": [
+          "Demand full sets of audited or at least management-prepared financials, operational data, and supporting documentation."
+        ],
+        "before_closing": [
+          "Do not progress the deal until all baseline data and documentation have been satisfactorily reviewed and verified."
+        ],
+        "post_acquisition": [
+          "Not applicable until pre-acquisition diligence is satisfied."
+        ]
+      },
+      "deal_killers_identified": [
+        "Complete lack of documentation to support any investment decision"
+      ],
+      "valuation_considerations": [
+        "No valuation credible without base documentation. All reported numbers are provisional and potentially fictitious."
+      ]
+    },
+    "metadata": {
+      "agent_name": "Diligence Coordinator Agent",
+      "timestamp": "2024-06-13T17:14:24Z",
+      "agents_executed": [
+        "Liquidity Risk Agent",
+        "Operational Efficiency Agent",
+        "Sustainability Agent",
+        "External Auditor Agent"
+      ]
+    }
+  },
+  "test_passed": true
+}

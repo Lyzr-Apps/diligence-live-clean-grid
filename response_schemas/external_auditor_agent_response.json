@@ -1,0 +1,190 @@
+{
+  "agent_name": "External Auditor Agent",
+  "agent_id": "6970d8ae1d92f5e2dd22a73f",
+  "agent_purpose": "analyzer",
+  "description": "Provides external audit perspective on accounting policies, related-party transactions, revenue recognition, and audit trail quality",
+  "response_schema": {
+    "status": "string",
+    "result": {
+      "accounting_concerns": {
+        "aggressive_policies": [
+          "string"
+        ],
+        "policy_changes": [
+          "string"
+        ],
+        "accounting_risk_level": "string"
+      },
+      "related_party_transactions": {
+        "identified_transactions": [
+          "string"
+        ],
+        "total_rpt_value": "string",
+        "conflicts_of_interest": [
+          "string"
+        ]
+      },
+      "revenue_recognition": {
+        "issues_identified": [
+          "string"
+        ],
+        "timing_concerns": [
+          "string"
+        ],
+        "revenue_quality_rating": "string"
+      },
+      "audit_trail": {
+        "documentation_quality": "string",
+        "gaps_identified": [
+          "string"
+        ],
+        "control_weaknesses": [
+          "string"
+        ]
+      },
+      "verification_findings": {
+        "liquidity_verification": "string",
+        "operational_verification": "string",
+        "sustainability_verification": "string",
+        "discrepancies": [
+          "string"
+        ]
+      },
+      "overall_audit_opinion": "string",
+      "red_flags": [
+        "string"
+      ],
+      "recommendations": [
+        "string"
+      ]
+    },
+    "metadata": {
+      "agent_name": "string",
+      "timestamp": "string"
+    }
+  },
+  "example_response": {
+    "status": "success",
+    "result": {
+      "accounting_concerns": {
+        "aggressive_policies": [
+          "Data not found in documents"
+        ],
+        "policy_changes": [
+          "Data not found in documents"
+        ],
+        "accounting_risk_level": "Data not found in documents"
+      },
+      "related_party_transactions": {
+        "identified_transactions": [
+          "Data not found in documents"
+        ],
+        "total_rpt_value": "Data not found in documents",
+        "conflicts_of_interest": [
+          "Data not found in documents"
+        ]
+      },
+      "revenue_recognition": {
+        "issues_identified": [
+          "Data not found in documents"
+        ],
+        "timing_concerns": [
+          "Data not found in documents"
+        ],
+        "revenue_quality_rating": "Data not found in documents"
+      },
+      "audit_trail": {
+        "documentation_quality": "Data not found in documents",
+        "gaps_identified": [
+          "Data not found in documents"
+        ],
+        "control_weaknesses": [
+          "Data not found in documents"
+        ]
+      },
+      "verification_findings": {
+        "liquidity_verification": "Data not found in documents",
+        "operational_verification": "Data not found in documents",
+        "sustainability_verification": "Data not found in documents",
+        "discrepancies": [
+          "Data not found in documents"
+        ]
+      },
+      "overall_audit_opinion": "Data not found in documents",
+      "red_flags": [
+        "Data not found in documents"
+      ],
+      "recommendations": [
+        "Data not found in documents"
+      ]
+    },
+    "metadata": {
+      "agent_name": "External Auditor Agent",
+      "timestamp": "2024-06-14T10:09:00Z"
+    }
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-01-21T13:49:09.259231",
+  "test_message_used": "Analyze this sample data for testing",
+  "actual_test_response": {
+    "status": "success",
+    "result": {
+      "accounting_concerns": {
+        "aggressive_policies": [
+          "Data not found in documents"
+        ],
+        "policy_changes": [
+          "Data not found in documents"
+        ],
+        "accounting_risk_level": "Data not found in documents"
+      },
+      "related_party_transactions": {
+        "identified_transactions": [
+          "Data not found in documents"
+        ],
+        "total_rpt_value": "Data not found in documents",
+        "conflicts_of_interest": [
+          "Data not found in documents"
+        ]
+      },
+      "revenue_recognition": {
+        "issues_identified": [
+          "Data not found in documents"
+        ],
+        "timing_concerns": [
+          "Data not found in documents"
+        ],
+        "revenue_quality_rating": "Data not found in documents"
+      },
+      "audit_trail": {
+        "documentation_quality": "Data not found in documents",
+        "gaps_identified": [
+          "Data not found in documents"
+        ],
+        "control_weaknesses": [
+          "Data not found in documents"
+        ]
+      },
+      "verification_findings": {
+        "liquidity_verification": "Data not found in documents",
+        "operational_verification": "Data not found in documents",
+        "sustainability_verification": "Data not found in documents",
+        "discrepancies": [
+          "Data not found in documents"
+        ]
+      },
+      "overall_audit_opinion": "Data not found in documents",
+      "red_flags": [
+        "Data not found in documents"
+      ],
+      "recommendations": [
+        "Data not found in documents"
+      ]
+    },
+    "metadata": {
+      "agent_name": "External Auditor Agent",
+      "timestamp": "2024-06-14T10:09:00Z"
+    }
+  },
+  "test_passed": true
+}

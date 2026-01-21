@@ -1,0 +1,78 @@
+{
+  "workflow_created": true,
+  "agents": [
+    {
+      "name": "Diligence Coordinator Agent",
+      "agent_id": "6970d8d41d92f5e2dd22a74a",
+      "type": "manager",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "temperature": 0.3,
+      "has_knowledge_base": false,
+      "managed_agents": [
+        "6970d83dd6d0dcaec1118066",
+        "6970d8581d92f5e2dd22a72a",
+        "6970d8781d92f5e2dd22a732",
+        "6970d8ae1d92f5e2dd22a73f"
+      ]
+    },
+    {
+      "name": "Liquidity Risk Agent",
+      "agent_id": "6970d83dd6d0dcaec1118066",
+      "type": "sub-agent",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "temperature": 0.2,
+      "has_knowledge_base": true,
+      "rag_id": "6970d82b42263af0ef9d3b9a",
+      "rag_name": "pediligencedocumentsru1x"
+    },
+    {
+      "name": "Operational Efficiency Agent",
+      "agent_id": "6970d8581d92f5e2dd22a72a",
+      "type": "sub-agent",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "temperature": 0.2,
+      "has_knowledge_base": true,
+      "rag_id": "6970d82b42263af0ef9d3b9a",
+      "rag_name": "pediligencedocumentsru1x"
+    },
+    {
+      "name": "Sustainability Agent",
+      "agent_id": "6970d8781d92f5e2dd22a732",
+      "type": "sub-agent",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "temperature": 0.2,
+      "has_knowledge_base": true,
+      "rag_id": "6970d82b42263af0ef9d3b9a",
+      "rag_name": "pediligencedocumentsru1x"
+    },
+    {
+      "name": "External Auditor Agent",
+      "agent_id": "6970d8ae1d92f5e2dd22a73f",
+      "type": "sub-agent",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "temperature": 0.2,
+      "has_knowledge_base": true,
+      "rag_id": "6970d82b42263af0ef9d3b9a",
+      "rag_name": "pediligencedocumentsru1x"
+    }
+  ],
+  "knowledge_base": {
+    "name": "PE Diligence Documents",
+    "rag_id": "6970d82b42263af0ef9d3b9a",
+    "rag_name": "pediligencedocumentsru1x",
+    "description": "Knowledge base containing CIM, Financial Statements, Contracts, Investment Memo, and Cash Flow Statements"
+  },
+  "response_schemas_saved": [
+    "liquidity_risk_agent_response.json",
+    "operational_efficiency_agent_response.json",
+    "sustainability_agent_response.json",
+    "external_auditor_agent_response.json",
+    "diligence_coordinator_agent_response.json"
+  ],
+  "creation_timestamp": "2026-01-21T00:00:00Z"
+}

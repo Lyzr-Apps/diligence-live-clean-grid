@@ -1,0 +1,106 @@
+{
+  "agent_name": "Liquidity Risk Agent",
+  "agent_id": "6970d83dd6d0dcaec1118066",
+  "agent_purpose": "analyzer",
+  "description": "Analyzes liquidity risks including cash position, working capital, debt covenants, and refinancing risks",
+  "response_schema": {
+    "status": "string",
+    "result": {
+      "cash_position": {
+        "current_cash": "string",
+        "burn_rate": "string",
+        "runway_months": "string"
+      },
+      "working_capital": {
+        "current_ratio": "string",
+        "trends": [
+          "any"
+        ],
+        "red_flags": [
+          "any"
+        ]
+      },
+      "debt_analysis": {
+        "total_debt": "string",
+        "covenant_status": "string",
+        "covenant_details": [
+          "any"
+        ],
+        "refinancing_risks": [
+          "any"
+        ]
+      },
+      "liquidity_score": "string",
+      "immediate_concerns": [
+        "any"
+      ],
+      "recommendations": [
+        "any"
+      ]
+    },
+    "metadata": {
+      "agent_name": "string",
+      "timestamp": "string"
+    }
+  },
+  "example_response": {
+    "status": "success",
+    "result": {
+      "cash_position": {
+        "current_cash": "Data not found in documents",
+        "burn_rate": "Data not found in documents",
+        "runway_months": "Data not found in documents"
+      },
+      "working_capital": {
+        "current_ratio": "Data not found in documents",
+        "trends": [],
+        "red_flags": []
+      },
+      "debt_analysis": {
+        "total_debt": "Data not found in documents",
+        "covenant_status": "Data not found in documents",
+        "covenant_details": [],
+        "refinancing_risks": []
+      },
+      "liquidity_score": "Data not found in documents",
+      "immediate_concerns": [],
+      "recommendations": []
+    },
+    "metadata": {
+      "agent_name": "Liquidity Risk Agent",
+      "timestamp": "2024-06-14T17:48:27Z"
+    }
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-01-21T13:48:57.057250",
+  "test_message_used": "Analyze this sample data for testing",
+  "actual_test_response": {
+    "status": "success",
+    "result": {
+      "cash_position": {
+        "current_cash": "Data not found in documents",
+        "burn_rate": "Data not found in documents",
+        "runway_months": "Data not found in documents"
+      },
+      "working_capital": {
+        "current_ratio": "Data not found in documents",
+        "trends": [],
+        "red_flags": []
+      },
+      "debt_analysis": {
+        "total_debt": "Data not found in documents",
+        "covenant_status": "Data not found in documents",
+        "covenant_details": [],
+        "refinancing_risks": []
+      },
+      "liquidity_score": "Data not found in documents",
+      "immediate_concerns": [],
+      "recommendations": []
+    },
+    "metadata": {
+      "agent_name": "Liquidity Risk Agent",
+      "timestamp": "2024-06-14T17:48:27Z"
+    }
+  },
+  "test_passed": true
+}

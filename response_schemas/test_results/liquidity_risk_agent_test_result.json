@@ -1,0 +1,38 @@
+{
+  "agent_name": "Liquidity Risk Agent",
+  "agent_id": "6970d83dd6d0dcaec1118066",
+  "test_message": "Analyze the cash position and liquidity risks in the provided financial statements. Identify any immediate red flags related to working capital, debt covenants, or refinancing risks.",
+  "expected_purpose": "financial_analyst",
+  "timestamp": "2026-01-21T13:48:57.056326",
+  "is_valid_json": true,
+  "validation_errors": [],
+  "actual_response": {
+    "status": "success",
+    "result": {
+      "cash_position": {
+        "current_cash": "Data not found in documents",
+        "burn_rate": "Data not found in documents",
+        "runway_months": "Data not found in documents"
+      },
+      "working_capital": {
+        "current_ratio": "Data not found in documents",
+        "trends": [],
+        "red_flags": []
+      },
+      "debt_analysis": {
+        "total_debt": "Data not found in documents",
+        "covenant_status": "Data not found in documents",
+        "covenant_details": [],
+        "refinancing_risks": []
+      },
+      "liquidity_score": "Data not found in documents",
+      "immediate_concerns": [],
+      "recommendations": []
+    },
+    "metadata": {
+      "agent_name": "Liquidity Risk Agent",
+      "timestamp": "2024-06-14T17:48:27Z"
+    }
+  },
+  "raw_response": "{\n  \"status\": \"success\",\n  \"result\": {\n    \"cash_position\": {\n      \"current_cash\": \"Data not found in documents\",\n      \"burn_rate\": \"Data not found in documents\",\n      \"runway_months\": \"Data not found in documents\"\n    },\n    \"working_capital\": {\n      \"current_ratio\": \"Data not found in documents\",\n      \"trends\": [],\n      \"red_flags\": []\n    },\n    \"debt_analysis\": {\n      \"total_debt\": \"Data not found in documents\",\n      \"covenant_status\": \"Data not found in documents\",\n      \"covenant_details\": [],\n      \"refinancing_risks\": []\n    },\n    \"liquidity_score\": \"Data not found in documents\",\n    \"immediate_concerns\": [],\n    \"recommendations\": []\n  },\n  \"metadata\": {\n    \"agent_name\": \"Liquidity Risk Agent\",\n    \"timestamp\": \"2024-06-14T17:48:27Z\"\n  }\n}\n"
+}

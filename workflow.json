@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "Diligence Dashboard",
+      "nodeCategory": "input",
+      "position": {"x": 100, "y": 300},
+      "data": {
+        "label": "Diligence Dashboard",
+        "description": "Upload PE documents for analysis"
+      }
+    },
+    {
+      "id": "diligence_coordinator",
+      "type": "Agent",
+      "label": "Diligence Coordinator Agent",
+      "nodeCategory": "agent",
+      "position": {"x": 350, "y": 300},
+      "data": {
+        "label": "Diligence Coordinator Agent",
+        "agent_id": "6970d8d41d92f5e2dd22a74a",
+        "agent_type": "manager",
+        "model": "gpt-4.1",
+        "provider": "OpenAI",
+        "temperature": 0.3,
+        "managed_agents": [
+          "6970d83dd6d0dcaec1118066",
+          "6970d8581d92f5e2dd22a72a",
+          "6970d8781d92f5e2dd22a732",
+          "6970d8ae1d92f5e2dd22a73f"
+        ]
+      }
+    },
+    {
+      "id": "liquidity_agent",
+      "type": "Agent",
+      "label": "Liquidity Risk Agent",
+      "nodeCategory": "agent",
+      "position": {"x": 600, "y": 100},
+      "data": {
+        "label": "Liquidity Risk Agent",
+        "agent_id": "6970d83dd6d0dcaec1118066",
+        "agent_type": "sub-agent",
+        "model": "gpt-4.1",
+        "provider": "OpenAI",
+        "temperature": 0.2,
+        "has_knowledge_base": true,
+        "rag_id": "6970d82b42263af0ef9d3b9a",
+        "sequence": 1
+      }
+    },
+    {
+      "id": "operational_agent",
+      "type": "Agent",
+      "label": "Operational Efficiency Agent",
+      "nodeCategory": "agent",
+      "position": {"x": 600, "y": 220},
+      "data": {
+        "label": "Operational Efficiency Agent",
+        "agent_id": "6970d8581d92f5e2dd22a72a",
+        "agent_type": "sub-agent",
+        "model": "gpt-4.1",
+        "provider": "OpenAI",
+        "temperature": 0.2,
+        "has_knowledge_base": true,
+        "rag_id": "6970d82b42263af0ef9d3b9a",
+        "sequence": 2
+      }
+    },
+    {
+      "id": "sustainability_agent",
+      "type": "Agent",
+      "label": "Sustainability Agent",
+      "nodeCategory": "agent",
+      "position": {"x": 600, "y": 340},
+      "data": {
+        "label": "Sustainability Agent",
+        "agent_id": "6970d8781d92f5e2dd22a732",
+        "agent_type": "sub-agent",
+        "model": "gpt-4.1",
+        "provider": "OpenAI",
+        "temperature": 0.2,
+        "has_knowledge_base": true,
+        "rag_id": "6970d82b42263af0ef9d3b9a",
+        "sequence": 3
+      }
+    },
+    {
+      "id": "auditor_agent",
+      "type": "Agent",
+      "label": "External Auditor Agent",
+      "nodeCategory": "agent",
+      "position": {"x": 600, "y": 460},
+      "data": {
+        "label": "External Auditor Agent",
+        "agent_id": "6970d8ae1d92f5e2dd22a73f",
+        "agent_type": "sub-agent",
+        "model": "gpt-4.1",
+        "provider": "OpenAI",
+        "temperature": 0.2,
+        "has_knowledge_base": true,
+        "rag_id": "6970d82b42263af0ef9d3b9a",
+        "sequence": 4
+      }
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Consolidated Analysis",
+      "nodeCategory": "end",
+      "position": {"x": 850, "y": 300},
+      "data": {
+        "label": "Consolidated Analysis",
+        "description": "Investment recommendation with findings from all specialist agents"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "input_node",
+      "target": "diligence_coordinator",
+      "type": "default"
+    },
+    {
+      "id": "e2",
+      "source": "diligence_coordinator",
+      "target": "liquidity_agent",
+      "type": "default",
+      "label": "1st"
+    },
+    {
+      "id": "e3",
+      "source": "liquidity_agent",
+      "target": "operational_agent",
+      "type": "default",
+      "label": "2nd"
+    },
+    {
+      "id": "e4",
+      "source": "operational_agent",
+      "target": "sustainability_agent",
+      "type": "default",
+      "label": "3rd"
+    },
+    {
+      "id": "e5",
+      "source": "sustainability_agent",
+      "target": "auditor_agent",
+      "type": "default",
+      "label": "4th"
+    },
+    {
+      "id": "e6",
+      "source": "auditor_agent",
+      "target": "output_node",
+      "type": "default"
+    }
+  ],
+  "metadata": {
+    "app_name": "PE Diligence Command Center",
+    "workflow_type": "manager-subagent-sequential",
+    "total_agents": 5,
+    "knowledge_base_id": "6970d82b42263af0ef9d3b9a",
+    "created_at": "2026-01-21T00:00:00Z"
+  }
+}
