@@ -762,7 +762,7 @@ export default function Home() {
         )}
 
         {/* Results Zone */}
-        {response && coordinatorResult && (
+        {response && coordinatorResult && coordinatorResult.agent_findings && (
           <div className="space-y-6">
             {/* Consolidated Recommendation */}
             <ConsolidatedRecommendationCard result={coordinatorResult} />
@@ -775,7 +775,7 @@ export default function Home() {
                 agentName="Liquidity Risk Analysis"
                 icon={DollarSign}
                 severity="View Details"
-                result={coordinatorResult.agent_findings.liquidity_summary}
+                result={coordinatorResult.agent_findings?.liquidity_summary || 'No data available'}
                 isOpen={openPanels['liquidity'] || false}
                 onToggle={() => togglePanel('liquidity')}
               />
@@ -784,7 +784,7 @@ export default function Home() {
                 agentName="Operational Efficiency Analysis"
                 icon={BarChart}
                 severity="View Details"
-                result={coordinatorResult.agent_findings.operational_summary}
+                result={coordinatorResult.agent_findings?.operational_summary || 'No data available'}
                 isOpen={openPanels['operational'] || false}
                 onToggle={() => togglePanel('operational')}
               />
@@ -793,7 +793,7 @@ export default function Home() {
                 agentName="Sustainability Analysis"
                 icon={TrendingUp}
                 severity="View Details"
-                result={coordinatorResult.agent_findings.sustainability_summary}
+                result={coordinatorResult.agent_findings?.sustainability_summary || 'No data available'}
                 isOpen={openPanels['sustainability'] || false}
                 onToggle={() => togglePanel('sustainability')}
               />
@@ -802,7 +802,7 @@ export default function Home() {
                 agentName="External Audit Review"
                 icon={Shield}
                 severity="View Details"
-                result={coordinatorResult.agent_findings.audit_summary}
+                result={coordinatorResult.agent_findings?.audit_summary || 'No data available'}
                 isOpen={openPanels['audit'] || false}
                 onToggle={() => togglePanel('audit')}
               />
