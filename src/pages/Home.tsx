@@ -708,26 +708,27 @@ export default function Home() {
                     Manage Documents
                   </Button>
                 </DialogTrigger>
-              <DialogContent className="max-w-2xl bg-[#1a1f36] border-gray-700 text-white">
-                <DialogHeader>
-                  <DialogTitle className="text-white">Document Management</DialogTitle>
-                  <DialogDescription className="text-gray-400">
-                    Upload financial documents, statements, and reports for analysis
-                  </DialogDescription>
-                </DialogHeader>
-                <KnowledgeBaseUpload
-                  ragId={RAG_ID}
-                  onUploadSuccess={(doc) => {
-                    if (doc.documentCount !== undefined) {
-                      setDocumentCount((prev) => prev + 1)
-                    }
-                  }}
-                  onDeleteSuccess={() => {
-                    setDocumentCount((prev) => Math.max(0, prev - 1))
-                  }}
-                />
-              </DialogContent>
-            </Dialog>
+                <DialogContent className="max-w-2xl bg-[#1a1f36] border-gray-700 text-white">
+                  <DialogHeader>
+                    <DialogTitle className="text-white">Document Management</DialogTitle>
+                    <DialogDescription className="text-gray-400">
+                      Upload financial documents, statements, and reports for analysis
+                    </DialogDescription>
+                  </DialogHeader>
+                  <KnowledgeBaseUpload
+                    ragId={RAG_ID}
+                    onUploadSuccess={(doc) => {
+                      if (doc.documentCount !== undefined) {
+                        setDocumentCount((prev) => prev + 1)
+                      }
+                    }}
+                    onDeleteSuccess={() => {
+                      setDocumentCount((prev) => Math.max(0, prev - 1))
+                    }}
+                  />
+                </DialogContent>
+              </Dialog>
+            </div>
           </div>
         </div>
       </header>
