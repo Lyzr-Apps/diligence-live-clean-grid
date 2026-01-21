@@ -687,7 +687,7 @@ export default function Home() {
             </div>
             <Dialog open={showDocumentManager} onOpenChange={setShowDocumentManager}>
               <DialogTrigger asChild>
-                <Button variant="outline" className="border-gray-700 text-white hover:bg-gray-800">
+                <Button variant="ghost" className="border border-gray-700 text-white hover:bg-gray-800 hover:text-white">
                   <Upload className="mr-2 h-4 w-4" />
                   Manage Documents
                 </Button>
